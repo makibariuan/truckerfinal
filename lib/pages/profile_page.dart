@@ -165,6 +165,7 @@ class _ProfilePageState extends State<ProfilePage> {
       appBar: AppBar(
         title: Text(_isLoading ? '' : user!.name),
         foregroundColor: Theme.of(context).colorScheme.primary,
+        centerTitle: true,
       ),
       body: ListView(
         children: [
